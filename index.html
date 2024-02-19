@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Foldit&family=Luxurious+Script&family=Monoton&family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Foldit&family=Lemonada:wght@300&family=Luxurious+Script&family=Monoton&family=Nosifer&family=Shrikhand&display=swap" rel="stylesheet">
+    <link rel="icon" href="imagenes/icon.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="scrip.js"></script>
+    <title>challenge Alura</title>
+</head>
+<body>
+    <header >
+        <div class="logo">
+            <img src="imagenes\Logo@2x.png" class="imglogo" alt="">
+            <h1 class="tituloLogo">Challenge 1: Encriptador de textos</h1>
+        </div>
+    </header>
+    <main>    
+            <div class="izquierda">
+                <input class="inputingreso" id="inputText" type="text" placeholder="Ingrese el texto aqui">
+            </div>
+            <div class="advertencia">
+                <img src="imagenes/bi_exclamation-circle-fill.png" class="imgalerta" alt="">
+                <p class="txtalerta">Solo letras minusculas y sin acentos</p>
+            </div>
+            <div class="botones">
+                <button type="button" id="btn-encriptar" onclick="encriptar()"><i class="fa-solid fa-lock"></i>Encriptar</button>
+                <button type="button" id="btn-desencriptar" onclick="desencriptar()"><i class="fa-solid fa-unlock"></i>Desencriptar</button>
+            </div>
+            <div class="derecha">
+                <img id="muñeco" src="imagenes/Muñeco.png">
+                <h1 id="mensajed">Ningun mensaje fue encontrado</h1>
+                <textarea name="name" id="txtarea"  cols="33" rows="10">Ingrese el texto que desee encriptar o desencriptar</textarea>
+                <button id="copiar"  type="button" name="button" onclick="copy()">Copiar<i class="fa-solid fa-copy"></i></button>
+                <div id="mensaje">
+                    <p id="msgCopi">Se ha copiado en el portal</p>
+                    <span id="check-icon"><i class="fas fa-check"></i></span>
+            </div>
+    </main>
+    <footer>
+        <div class="iconos-redes">
+            <a href="https://www.linkedin.com/in/jhon-mijahuanca-318879202/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Mijahuanca2"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <p class="copyright">&copy Copyright Jhon Mijahuanca - 2024</p>
+    </footer>   
+    <script src="scrip.js"></script>
+</body>
+</html>
